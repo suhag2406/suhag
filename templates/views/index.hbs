@@ -1,0 +1,17 @@
+
+<table id="Btable"style="width:50%">
+    <tr class="table-head">
+      <th>Id</th>
+      <th>Name</th>
+      <th>Birth Date</th>
+      <th>Remove</th>
+    </tr>
+    {{#each a}}
+    <tr>
+      <td>{{this.id}}</td>
+      <td>{{this.name}}</td>
+      <td>{{this.date}}</td>
+      <td><form action="/try2" method="delete"><input type="submit" value={{id}} name="id"></form></td>
+    </tr>
+    {{/each}}
+</table>
