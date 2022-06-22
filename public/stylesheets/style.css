@@ -1,0 +1,37 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+form{
+  position: relative;
+  left: 20%;
+  transform: translate(0, -50%);
+  padding: 10px;
+}
+
+ #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Btable td, #Btable th {
+  border: 1px solid #ddd;
+  padding:8px;
+}
+#Btable tr:nth-child(even){background-color: #f2f2f2;}
+
+#Btable tr:hover {background-color: #ddd;}
+
+#Btable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
